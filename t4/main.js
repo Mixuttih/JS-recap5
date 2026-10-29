@@ -24,7 +24,8 @@ async function fetchUser() {
      }
      const userData = await fetchData(url, options);
      console.log(userData);
-   } catch (error) {
+   }
+   catch (error) {
      console.error('An error occurred:', error);
    }
 }
